@@ -1,0 +1,26 @@
+/**HISTORIA**/
+.inicio {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    padding: 1rem;
+}
+.inicio img {
+    padding: 1rem;
+}
+.center {
+    text-align: center;
+}
+.imagenInicio {
+    width: 350px;
+}
+@media (max-width: 1000px) {
+    .inicio {
+        grid-template-columns: auto;
+    }
+    .imgInicio {
+        width: 70%;
+    }
+    .InicioCenter {
+        text-align: center;
+    }
+}

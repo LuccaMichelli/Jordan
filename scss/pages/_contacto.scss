@@ -1,0 +1,87 @@
+/**FORMULARIO**/
+.formulario {
+    width: 30rem;
+    padding: 1rem;
+    margin: 0 auto;
+    font-weight: bolder;  
+    fieldset {
+        border: none;
+    }    
+    legend {
+        text-align: center;
+        padding: 1rem;
+    }
+    .campo {
+        padding: .2rem; 
+        .input-text {
+            width: 100%;
+            padding: 1rem;
+            border-radius: .3rem;
+            border: 0rem;
+        }
+    } 
+    .alinear {
+        text-align: end;
+        .boton {
+            width: 20%;
+            padding: .5rem;
+            font-weight: bold;
+            background-color: $negro;
+            color: $blanco;
+            border: none;
+            border-radius: 0.2rem;
+            :hover {
+                cursor: pointer;
+                opacity: 0.7;
+            }
+        }
+    }
+}
+.alert {
+    background-color: green;
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;}
+.error {
+    background-color: rgb(185, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .boton {
+        width: 100%;
+    }
+}
+
+
+

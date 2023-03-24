@@ -1,0 +1,21 @@
+/**COLABORACIONES**/
+.tresColumns {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1rem;
+    justify-items: center;
+    
+}
+.imgJ {
+    width: 80%;
+}
+.dosColumnas {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    padding: 4rem;
+    justify-items: center;
+}
+.colabo {
+    width: 350px;
+}

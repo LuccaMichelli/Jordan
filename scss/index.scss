@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300&display=swap');
+
+
+/*MISC*/
+
+@import "./misc/normalize";
+@import "./misc/variables";
+
+/*PAGES*/
+
+@import "./pages/colaboraciones";
+@import "./pages/contacto";
+@import "./pages/galeria";
+@import "./pages/historia";
+@import "./pages/index";
+
+/*PARTIALS*/
+
+@import "./partials/footer";
+@import "./partials/navbar";

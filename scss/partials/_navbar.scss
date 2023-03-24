@@ -1,0 +1,19 @@
+/**NAVEGACION PRINCIPAL**/  
+.logo {
+    width: 45px;   
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+.container-fluid {
+    background-color: $negro;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: $blanco;
+}
+.dropdown-menu {
+    background-color: $negro;
+}
+.dropdown-item {
+    color: $blanco;
+}
